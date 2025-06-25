@@ -1,17 +1,18 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
-
 .nav {
     position: fixed;
+    background-color:black;
     width: 100%;
     top: 0;
     left: 0;
-    color:black;
+    height: 100px;
 }
+
+.home-section {
+    background-color:red;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    height: 500px;
+    padding-left: 10px;
+}
+
