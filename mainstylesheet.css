@@ -1,10 +1,31 @@
+
 .nav {
-    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color:black;
     width: 100%;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 100px;    
+}
+
+.nav-left {
+    display: flex;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.nav-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.nav-link-btn {
+    margin-left: 3%;
+    color: yellowgreen;
 }
 
 .home-section {
