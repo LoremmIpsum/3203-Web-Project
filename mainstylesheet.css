@@ -9,12 +9,14 @@
 }
 
 .nav-left {
+    font-family: "Forum", serif;
     display: flex;
     width: 50%;
     padding-left: 5%;
 }
 
 .nav-right {
+    font-family: "Forum", serif;
     display: flex;
     width: 50%;
     justify-content: flex-end;
@@ -22,8 +24,24 @@
 }
 
 .nav-link-btn {
+    padding: 2%;
+    border: 2px #878787;
+    color: #878787;
     margin-left: 3%;
-    color: yellowgreen;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.home-link-btn {
+    padding: 2%;
+    border: 2px #878787;
+    color: #878787;
+    text-decoration: none;
+    font-size: 20px
+}
+
+a:hover {
+  color: #4f4f4f;
 }
 
 .home-section {
