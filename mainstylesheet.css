@@ -76,7 +76,7 @@ a:hover {
 
 .text-body {
     display: flex;
-    height: 2px;
+    height: auto;
     width: 100%;
     margin: 10%;
 }
