@@ -103,3 +103,18 @@ a:hover {
     justify-content: center;
     text-align: center;
 }
+
+.div-bubble {
+    border-radius: 10%;
+    border: 3px solid #878787;
+    background-color:#878787
+}
+
+.div-bubble-text{
+    border-radius: 10%;
+    border: 3px solid#878787;
+    background-color: #878787;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
