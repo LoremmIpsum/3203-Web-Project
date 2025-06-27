@@ -86,3 +86,20 @@ a:hover {
     font-family: "Forum", serif;
 }
 
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#262626;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px; 
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
