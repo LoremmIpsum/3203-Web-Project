@@ -1,0 +1,11 @@
+###
+- fix line on home page
+- fill text with something real on home page
+- populate link a and b with stuff
+- work on works cited page
+
+    - home page
+    - 2 sub topic pages
+    - references page
+
+!!! use heading, list, image, and table.
