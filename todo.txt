@@ -15,3 +15,4 @@
 
 - fix the alignment of nave buttons 
 - add fun icon things to links and stuff 
+- fix spacing on the works cited page

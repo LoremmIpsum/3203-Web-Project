@@ -105,10 +105,17 @@ a:hover {
 }
 
 .div-bubble {
-    border-radius: 10%;
+    border-radius: 5%;
     border: 3px solid #878787;
     background-color:#878787
 }
+
+.div-bubble-ref {
+    border-radius: 5%;
+    border: 3px solid #262626;
+    background-color:#262626
+}
+
 
 .div-bubble-text{
     border-radius: 10%;
@@ -154,10 +161,16 @@ h4 {
     font-weight: 200;
 }
 
-h5 {
-    border-radius: 50%;  
+h5 { 
     font-family: Forum, serif; 
     font-size: 25px;  
     font-weight: 300;
     margin-bottom: 0;
 }
+
+li {
+    padding-top: 5%;
+    font-size: larger;
+}
+
+
