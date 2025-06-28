@@ -9,3 +9,8 @@
     - references page
 
 !!! use heading, list, image, and table.
+
+
+
+
+- fix the alignment of nave buttons 
