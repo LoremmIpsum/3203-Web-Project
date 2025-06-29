@@ -19,6 +19,6 @@
 
 SUBSTANCE FOR MILESTONE 1:
     Home - complete
-    HTTP - nf
-    Works Cited - nf
+    HTTP - complete
+    Works Cited - complete
     Glossary - nf
