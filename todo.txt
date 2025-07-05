@@ -25,15 +25,5 @@ SUBSTANCE FOR MILESTONE 1:
 
 
 
-onclick [per question]
 
-per question fuction (question number, answer)
-    store question number and answer in variables
-
-onclick [finish button]
-    grab all question numbers with corisponding answers
-    check if answers are correct
-    do math to calculate score
-    remove div for finish button
-    replace finish button div with a div displaying score
 

@@ -11,6 +11,7 @@
 function gradeQuiz() {
 
 
+    // grading scoring logic
     let grade = 0
     let passFail = ""
     if (document.getElementById("correctq1").checked)
@@ -24,6 +25,10 @@ function gradeQuiz() {
     if (document.getElementById("correctq5").checked)
         {grade = (grade + 1)};
 
+
+
+
+    //pass or fail logic
     if (grade < 3)
         {passFail = "You Failed!"}
     else

@@ -68,8 +68,21 @@
             URLs, another technology created by Berners-Lee, are a standard way of communicating at an application level where a resource is. 
             When these URLs are used in conjuction with a web browser to request resources, HTTP works on the backend to provide the resources.
             When using a URL to request a webpage, HTTP requests are made to and from the web server. Both client requests, and server responses are two main parts, a header and a body.
-            The header section of a either a request or a response stores and sends metadata, or information in relation to the actual requested data. 
+            The header section of either a request or a response stores and sends metadata, or information in relation to the actual requested data. 
             The body section is the payload, or actual information relating to a specific resource that was requested. 
+            </p>
+            <h5 style="margin-bottom: 0;">Request and Responses</h5>
+            <p class="info-body-text">
+            The cause of having two seperate types of HTTP messages is due to the design philosophy behind HTTP. HTTP operates on the Client-Server model. 
+            The client, makes requests to the server, typically requesting resources. The server, typically serves the client requested resources. 
+            Because of this model, technically there are two types of HTTP protocol technologies, client HTTP, or just HTTP, and HTTPd or HTTP daemon. 
+            HTTPd is what webserver software is build on top of, and serve requests. 
+            Since this model is the basis of how HTTP operates, requests and responses have different anatomies. A HTTP request header includes a method. 
+            HTTP methods describe the main underlying function you'd like the server to do on your behalf. Common HTTP methods are GET, POST, PUT, PATCH, DELETE, and HEAD. 
+            Typically outside of GET and POST, the other mentioned methods are used for API's. unlike requests, HTTP server responses send status codes. 
+            These status codes allow both software and the user on the client side to get information related to the request. status codes are three digit numbers between 100-599. 
+            The left most digit denotes a general response, and the following two digits specify the status further.
+            Some common status codes are 400, which mean bad request, 404, which means page not found, 200 which means general success, etc.
             </p>
             <!-- REAL txt area -->
 
