@@ -131,7 +131,7 @@ table {
     border: 3px solid;
 }
 
-th {
+th{
     border: 3px solid #4f4f4f;
     border-collapse: collapse;
     font-family: Forum, serif; 
@@ -173,4 +173,29 @@ li {
     font-size: larger;
 }
 
+.answers {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.question {
+    font-family: Forum, serif; 
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.btn-generic {
+    font-family: "Forum", serif;
+    border-radius: 5%;
+    padding: 2%;
+    border: 2px #878787;
+    color: #878787;
+    background-color: #262626;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.btn-generic:hover {
+    color: #4f4f4f;
+}
 

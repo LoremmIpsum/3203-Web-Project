@@ -43,42 +43,60 @@
         
         <!-- THIS IS WHERE NEW STUFF GOES -->
         
-        <!-- Subtitle area -->
-        <div style="text-align: center;">
+        <!-- quiz area -->
+        <div style="text-align: center;" id="quiztitle">
             <h4>Knowledge Check</h4>
         </div>
 
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat magni excepturi nam minima magnam, totam impedit nisi officia architecto, laboriosam aliquid unde harum incidunt corrupti est doloribus consectetur ab ipsa.
-        </p>
-
-        <form action="" id="quizf">
-            <div style="padding-bottom: 3%;">
-                <p>1. Which protocol is HTTP built on top of and relies on for networking fuctionality?</p>
-                <label><input type="radio" name="q2" value="a"> DNS</label><br>
-                <label><input type="radio" name="q2" value="b"> IP</label><br>
-                <label><input type="radio" name="q2" value="c"> TLS</label><br>
-                <label><input type="radio" name="q2" value="d"> HTTPS</label><br>
+        <form id="quizf">
+            <div style="padding-bottom: 3%;" id="question1div">
+                <p class="question">1. Which technology was mentioned to denote where resources are located over a network? (Choose One)</p>
+                <input type="radio" name="q1" value=""> <span class="answers">DHTML</span><br>
+                <input type="radio" name="q1" value="" id="correctq1"> <span class="answers">URL</span><br>
+                <input type="radio" name="q1" value=""> <span class="answers">XML</span><br>
+                <input type="radio" name="q1" value=""> <span class="answers">JSON</span><br>
             </div>
 
             <div style="padding-bottom: 3%;">
-                <p>2. Who is the inventor of HTTP?</p>
-                <label><input type="radio" name="q2" value="a"> Sir Tim-Berners Lee</label><br>
-                <label><input type="radio" name="q2" value="b"> Alex Tucker</label><br>
-                <label><input type="radio" name="q2" value="c"> Linus Torvalds</label><br>
-                <label><input type="radio" name="q2" value="d"> George Washington</label><br>
+                <p class="question">2. Who is the inventor of HTTP? (Choose One)</p>
+                <input type="radio" name="q2" value="" id="correctq2"> <span class="answers">Sir Tim-Berners Lee</span><br>
+                <input type="radio" name="q2" value=""> <span class="answers">Alex Tucker</span><br>
+                <input type="radio" name="q2" value=""> <span class="answers">Linus Torvalds</span><br>
+                <input type="radio" name="q2" value=""> <span class="answers">George Washington</span><br>
+            </div>
+
+            <div style="padding-bottom: 3%;">
+                <p class="question">3. Which protocols does HTTP utilize for network and transport functionality? (Choose Two)</p>
+                <input type="checkbox" name="q3" value="" id="correctq3_1"> <span class="answers">IP</span><br>
+                <input type="checkbox" name="q3" value="" id="correctq3_2"> <span class="answers">TCP</span><br>
+                <input type="checkbox" name="q3" value="" > <span class="answers">DNS</span><br>
+                <input type="checkbox" name="q3" value="" > <span class="answers">TLS</span><br>
+            </div>
+
+            <div style="padding-bottom: 3%;">
+                <p class="question">4. What is the acronym for the place Tim Berners-Lee worked? (All Caps)</p>
+                <input type="text" name="q4" id="correctq4"><br>
+            </div>
+
+            <div style="padding-bottom: 3%;">
+                <p class="question">5. What OSI layer is HTTP?</p>
+                <input type="radio" name="q5" value=""> <span class="answers">Layer 2</span><br>
+                <input type="radio" name="q5" value=""> <span class="answers">Layer 443</span><br>
+                <input type="radio" name="q5" value=""> <span class="answers">Layer 6</span><br>
+                <input type="radio" name="q5" value="" id="correctq5"> <span class="answers">Layer 7</span><br>
             </div>
         
         
             <div>
-                <button> FINISHED </button>
+                <button class="btn-generic" type="button" onclick="gradeQuiz()"> FINISHED </button>
             </div>
+
 
         </form>
 
+        <!-- graded area -->
 
-
-
+        <div id="result"></div>
 
 
 
@@ -103,5 +121,13 @@
             <p style="margin: 0%;" class="home-link-btn">Link for IT 3203 - <a href="https://ksuweb.github.io/IT3203/index.html" style="padding: 0%;" class="home-link-btn">ksuweb.github.io</a></p>
         </div>
     </footer>
+
+
+<script src="quizlogic.js"></script>
+
+
+
+
+
 </body>
 </html>
