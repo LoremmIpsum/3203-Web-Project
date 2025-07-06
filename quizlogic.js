@@ -1,13 +1,4 @@
 
-
-
-/*function checkAnswers() {
-    const answers = {
-        q1: "b", q2: "a"
-    }
-};
-*/
-
 function gradeQuiz() {
 
 
