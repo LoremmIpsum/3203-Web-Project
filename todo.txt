@@ -24,6 +24,13 @@ SUBSTANCE FOR MILESTONE 1:
     Glossary - nf
 
 
+works cited - fix padding on div bubbles
+glossary - correct table bounds
+
+add button for menu moblie
+add 2 pictures
+more content
+
 
 
 

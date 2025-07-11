@@ -16,15 +16,11 @@ function gradeQuiz() {
     if (document.getElementById("correctq5").checked)
         {grade = (grade + 1)};
 
-
-
-
     //pass or fail logic
     if (grade < 3)
         {passFail = "You Failed!"}
     else
         {passFail = "You Passed!"}
-    
     
     //removes quiz from DOM
     const quizForm = document.querySelector("#quizf")
