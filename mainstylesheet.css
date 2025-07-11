@@ -91,6 +91,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:#262626;
     margin-top: 50px;
     width: 100%; 
 }
@@ -232,10 +233,26 @@ li {
     height: 50px; 
     width: 100%;
     }
+
+    .glossarytable {
+        flex: auto; 
+        margin: 0% 5%;
+    }
+
+    ol {
+        padding-right: 8%;
+    }
 }
 
 /*medium breakpoint*/
 @media (max-width: 1024px) {
+    
+    .div-main-index {
+        display: flex; 
+        padding: 0% 10%;
+        gap: 2%;
+    }
+    
     .div-bubble {
         border-radius: 5%;
         border: 3px solid #878787;
@@ -260,6 +277,15 @@ li {
     height: 60px; 
     width: 100%;
     }
+
+    .glossarytable {
+        flex: auto; 
+        margin: 0% 10%;
+    }
+
+    ol {
+        padding-right: 5%;
+    }
 }
 
 /*desktop breakpoint*/
@@ -277,6 +303,13 @@ li {
     background-color:#878787
     }
     
+    .div-main-work-cited {
+        display: flex; 
+        flex-direction: column; 
+        margin-top: 5%; 
+        padding: 0% 20%;
+    }
+
     .indeximg {
         width: 100%; 
         height: 100%; 
@@ -293,6 +326,15 @@ li {
     overflow: hidden;
     height: 50px; 
     width: 100%;
+    }
+
+    .glossarytable {
+        flex: auto; 
+        margin: 0% 20%;
+    }
+
+    ol {
+        padding-right: 5%;
     }
 
 }

@@ -23,7 +23,7 @@ SUBSTANCE FOR MILESTONE 1:
     Works Cited - complete
     Glossary - nf
 
-
+---------------------------
 works cited - fix padding on div bubbles
 glossary - correct table bounds
 
