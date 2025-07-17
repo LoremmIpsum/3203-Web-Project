@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Web Project</title>
+</head>
+<body style= "margin: 0px;" >
+    
+    <!-- Navigation area -->
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="index.html" class="home-link-btn">Home</a>
+        </div>
+        <div class="nav-right">
+            <a href="HTTPinfo.html" class="nav-link-btn">HTTP</a>
+            <a href="Version.html" class="nav-link-btn">Versions</a>
+            <a href="Glossary.html" class="nav-link-btn">Glossary</a>
+            <a href="WorksCited.html" class="nav-link-btn">Works Cited</a>
+            <a href="quiz.html" class="nav-link-btn">Quiz</a>
+            
+        </div>
+    </nav>
+    
+    <!-- This is padding so the nav bar doesnt overlap that title -->
+    <div class="top-spacing" id="Home"></div>
+    
+    <!-- Title area -->
+    <div style= "padding-top: 1px ;">
+        <h1 class="header-text" style="margin-bottom: 0;">Hypertext Transfer Protocol</h1>
+    </div>
+    <div style="height: 2px; display: flex;">
+        <div class="divide-line" style="margin-top: 3%; width: 90%">
+        </div>
+    </div>
+    
+    <!-- Body area-->
+    <div style="display: flex; flex-direction: column; margin-top: 5%;">
+        
+        <!-- THIS IS WHERE NEW STUFF GOES -->
+        
+        <!-- Subtitle area -->
+        <div style="text-align: center;">
+            <h4>Versions</h4>
+        </div>
+
+        <!-- Writing area -->
+        <div style="padding: 0% 22%;">
+            
+            <!-- REAL txt area -->
+            
+            <p class="info-body-text">
+            Throughout the over 20 year lifespan of HTTP, the protocol has gone throught many upgrades and itterations. 
+            The different versions of HTTP have focused on different upgrades; like security, efficinecy, and features.  
+            </p>
+
+            <h5 style="margin-bottom: 0;">HTTP 0.9</h5>
+            <ul class="info-body-text" style="padding-top: 0%; font-size: 13px;">
+                <li>Original version of protocol.</li>
+                <li>Very basic.</li>
+                <li>Only had the GET method included.</li>
+            </ul>
+
+            <h5 style="margin-bottom: 0;">HTTP 1.0</h5>
+            <div style="display: flex; justify-content: center; margin: 5% 0%;">
+                <img class="infoimg" style="border: 0;" id="Cern-img-div" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17aug6sTeQ2UAUSnqpeCBtnp59qHC4hWE_w&s" alt="HTTP Logo">
+            </div>
+            <ul class="info-body-text" style="padding-top: 0%; font-size: 13px;">
+                <li>Introduced HTTP Headers - Allowing metadata to be transfered through requests and responses.</li>
+                <li>Introduced Status Codes - These status codes allowed meta information relating to request responses to be sent to clients.</li>
+                <li>Introduced Other File Sending - This allowed HTTP to be used to send more that just HTTP files.</li>
+            </ul>
+
+            <h5 style="margin-bottom: 0;">HTTP 1.1</h5>
+            <ul class="info-body-text" style="padding-top: 0%; font-size: 13px;">
+                <li>Introduced Pipelining - This fixed the bottleneck of having to wait for a response before sending another request. Fixing the pipelinging issues drastically improved preformance.</li>
+                <li>Introduced Reusable Connections - Unlike previous versions of HTTP, this version doesn't need to create multiple TCP connections for each request, but can use one for multiple.</li>
+                <li>Introduced 'host' Header - Allowing different webpages to be hosted on a machine with a single IP address.</li>
+            </ul>
+
+            <h5 style="margin-bottom: 0;">HTTPS</h5>
+            <ul class="info-body-text" style="padding-top: 0%; font-size: 13px;">
+                <li>Encrypted - Utilizing a encryption protocol called SSL alongside HTTP, finally allowed HTTP to be secure</li>
+                <li>SSL and TLS - SSL would continuously get security and efficiency updates, and eventually be renamed to TLS</li>
+                <li>Both HTTP and TLS are application layer protocols, and are used in conjuction. These two protocols would later be integrated to become more efficient.</li>
+            </ul>
+            
+            <h5 style="margin-bottom: 0;">HTTP 2</h5>
+            <div style="display: flex; justify-content: center; margin: 5% 0%;">
+                <img class="infoimg" style="border: 0;" id="Cern-img-div" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtweA2fvPovaZTDUsMncdETSCCPiQzdeiacytm9OxHATgrM-UInfmIu6D5FMR7NHD9WJg&usqp=CAU" alt="HTTP 2 Logo">
+            </div>
+            <ul class="info-body-text" style="padding-top: 0%; font-size: 13px;">
+                <li>Binary Protocol - This changed transmitted data from text to direct binary data. Due to this change, many preformance impprovements could be made, like making information sent more condensed, allowing for compression, etc.</li>
+                <li>Introduced Multiplexing - Similar to piplineing but on a much lower level, it allows multiple parts of requests and responses to be sent and received out of order.</li>
+                <li>Other Preformance Optimizations</li>
+            </ul>
+
+            <h5 style="margin-bottom: 0;">HTTP 3</h5>
+            <div style="display: flex; justify-content: center; margin: 5% 0%;">
+                <img class="infoimg" style="border: 0;" id="Cern-img-div" src="https://daniel.haxx.se/blog/wp-content/uploads/2020/08/IETF-Badge-HTTP3@3x-1200x521.png" alt="HTTP 2 Logo">
+            </div>
+            <ul class="info-body-text" style="padding-top: 0%; font-size: 13px;">
+                <li>New Transport Protocol - Unlike previous versions of HTTP, this version trades the oldschool TCP/IP suite for a newer QUIC transport protocol.</li>
+                <li>UDP Based - The new QUIC protocol is UDP based. Unlike TCP/IP, UDP based protocols are connectionless, allowing for significantly less overhead and speed.</li>
+                <li>Encrypted - QUIC has built-in encryption technology, finnally giving a version of HTTP native encryption. Unlike previous versions, the TLS encryption handshakes happen within the transport layer protocol, instead of as a seperate interaction on top of it.</li>
+            </ul>
+
+            <p class="info-body-text" style="padding-top: 5%;">
+            <span style="font-weight: bold;">NOTE</span> While This section covers major improvements and versions, there have been smaller improvements made between these versions that I did not include.   
+            </p>
+
+
+
+            <!-- REAL txt area -->
+
+        </div>
+        
+    </div>
+
+    <!-- Footer area -->
+    <footer class="footer-section">
+        <div class="footer-div">
+            <a href="#Home" class="home-link-btn">Back to top of page</a>
+        </div>
+        <div class="footer-div">
+            <p class="home-link-btn">Created by Alex Tucker, This is a class project for IT 3203 at Kennesaw State University.</p>
+        </div>
+        <div class="footer-div">
+            <p style="margin: 0%;" class="home-link-btn">Link for IT 3203 - <a href="https://ksuweb.github.io/IT3203/index.html" style="padding: 0%;" class="home-link-btn">ksuweb.github.io</a></p>
+        </div>
+    </footer>
+</body>
+</html>

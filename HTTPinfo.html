@@ -19,6 +19,7 @@
         </div>
         <div class="nav-right">
             <a href="HTTPinfo.html" class="nav-link-btn">HTTP</a>
+            <a href="Version.html" class="nav-link-btn">Versions</a>
             <a href="Glossary.html" class="nav-link-btn">Glossary</a>
             <a href="WorksCited.html" class="nav-link-btn">Works Cited</a>
             <a href="quiz.html" class="nav-link-btn">Quiz</a>
@@ -61,6 +62,11 @@
             At the time of his role, he created his own software called Enquire. Enquire used the concept of hyperlinks to link different resources within a database.
             Enquire's major flaw was its inability to link over a network. HTTP, in conjuction with other technologies he would develope, set out to fix this weakness. HTTP would become the transport protocol he created, for linking these resources over networks, namly the internet.
             </p>
+            
+            <div style="display: flex; justify-content: center; margin: 5% 0%;">
+                <img class="infoimg" id="Cern-img-div" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/CERN_logo.svg/1200px-CERN_logo.svg.png" alt="CERN logo">
+            </div>
+
             <h5 style="margin-bottom: 0;">The Mechanics of HTTP</h5>
             <p class="info-body-text">
             As mentioned before, HTTP is a communication protocol. More specifically, HTTP is a layer 7, or application layer comminucation protocol. 
@@ -71,6 +77,47 @@
             The header section of either a request or a response stores and sends metadata, or information in relation to the actual requested data. 
             The body section is the payload, or actual information relating to a specific resource that was requested. 
             </p>
+
+            <h5 style="margin-bottom: 0;">OSI Model</h5>
+            <div class="multi-item-div" style="display: flex; justify-content: space-evenly; margin: 5% 0%; ">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>[7]</th>
+                            <td>Application layer</td>
+                        </tr>
+
+                        <tr>
+                            <th>[6]</th>
+                            <td>Presentation Layer</td>
+                        </tr>
+                        <tr>
+                            <th>[5]</th>
+                            <td>Session Layer</td>
+                        </tr>
+                        <tr>
+                            <th>[4]</th>
+                            <td>Transport Layer</td>
+                        </tr>
+                        <tr>
+                            <th>[3]</th>
+                            <td>Network Layer</td>
+                        </tr>
+                        <tr>
+                            <th>[2]</th>
+                            <td>Data Link Layer</td>
+                        </tr>
+                        <tr>
+                            <th>[1]</th>
+                            <td>Physical Layer</td>
+                        </tr>
+
+                        <!-- REAL STUFF -->
+                    </tbody>
+                </table>
+                <img class="infoimg" id="Cern-img-div" src="https://miro.medium.com/v2/resize:fit:1052/1*pb-b83P8BATBvQSTUiyGkQ.png" alt="CERN logo">
+            </div>
+
             <h5 style="margin-bottom: 0;">Request and Responses</h5>
             <p class="info-body-text">
             The cause of having two seperate types of HTTP messages is due to the design philosophy behind HTTP. HTTP operates on the Client-Server model. 
@@ -84,9 +131,12 @@
             The left most digit denotes a general response, and the following two digits specify the status further.
             Some common status codes are 400, which mean bad request, 404, which means page not found, 200 which means general success, etc.
             </p>
+            <div style="display: flex; justify-content: center; margin: 5% 0%;">
+                <img class="infoimg" id="Cern-img-div" src="networkdevtools.PNG" alt="Examples of HTTP responses in dev tools">
+            </div>
+
             <!-- REAL txt area -->
 
-        
         </div>
         
     </div>
