@@ -15,9 +15,13 @@ function gradeQuiz() {
         {grade = (grade + 1)};
     if (document.getElementById("correctq5").checked)
         {grade = (grade + 1)};
+    if (document.getElementById("correctq6").checked)
+        {grade = (grade + 1)};
+    if (document.getElementById("correctq7_1").checked && document.getElementById("correctq7_2").checked)
+        {grade = (grade + 1)};
 
     //pass or fail logic
-    if (grade < 3)
+    if (grade < 5)
         {passFail = "You Failed!"}
     else
         {passFail = "You Passed!"}
@@ -29,7 +33,7 @@ function gradeQuiz() {
     //adds new div tag displaying grade
     const quizTitle = document.querySelector("#quiztitle")
     const gradeDiv = document.createElement("div")
-    gradeDiv.innerText = passFail + " | Your Grade is: " + grade + " / 5";
+    gradeDiv.innerText = passFail + " | Your Grade is: " + grade + " / 7";
     gradeDiv.style="padding-bottom: 3%";
     gradeDiv.className="question";
     quizTitle.append(gradeDiv)
